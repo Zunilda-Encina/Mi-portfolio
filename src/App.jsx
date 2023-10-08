@@ -1,9 +1,24 @@
-import { useState } from 'react'
-import './App.css';
-import Iconos from './assets/componentes/iconos';
-
+import { useEffect } from 'react'
+import 'bootstrap/dist/css/bootstrap.css';
+import Proyectos from './assets/component/Proyectos';
+import Tecnologias from './assets/component/tecnologias';
+import Footer from './assets/component/footer'
+import './App.css'
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    // Crear un elemento <script> para cargar el script externo
+    const script = document.createElement('script');
+    script.src = 'https://unpkg.com/ionicons@latest/dist/ionicons.js';
+    script.async = true;
+
+    // Agregar el script al final del <body>
+    document.body.appendChild(script);
+
+    // Limpieza: eliminar el script cuando el componente se desmonte
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <>
       <div>
@@ -20,15 +35,19 @@ function App() {
         <nav>
     <a href="#" className="active"> Inicio</a>
           <a href="#">Projectos</a>
-          <a href="#">Skills</a>
-          <a href="#">About</a>
+          <a href="#">Tecnologias</a>
+          <a href="#">Estudios</a>
           <a href="#">Contacto</a>
         </nav>
 </header>
 
   <section>
         <div className="main">
-          <Iconos />
+        <div className="social">
+            <a href="#"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
+            <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
+            <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+          </div>
      <div className="detail">
             <h1>
               <span>Hola,</span> <br /> me llamo{' '}
@@ -40,17 +59,21 @@ function App() {
            contribuyendo de manera positiva a proyectos desafiantes y 
             creciendo como profesional en la industria de la programación.
             </p>
-            <div className="button"> <button>Descargar CV</button> </div>
+            <div className="button"> 
+            <button><ion-icon name="download-outline"></ion-icon> 
+             Descargar CV </button> </div>
           </div>
           <div className="images">
             <img src="https://task025.w3spaces.com/self3.png" alt="Foto de porfolio"  width="100%"  />
           </div>
         </div>
       </section>
+    <Proyectos />
+    <Tecnologias />
+    <Footer />
     </div>
     </>
   )
 }
 
 export default App
-

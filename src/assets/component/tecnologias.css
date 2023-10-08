@@ -1,0 +1,23 @@
+.tecnologias {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+    }
+img{
+    width: 3rem;
+}
+    /* Estilos para cada carta de tecnología */
+.tecnologia {
+flex-basis: calc(20% - 10px); /* Ancho del 20% menos el espacio entre elementos */
+margin-bottom: 20px;
+text-align: center;
+padding: 10px;
+border: 1px solid #ccc;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    /* Estilos para hacer que las cartas sean más pequeñas en pantallas más pequeñas */
+    @media (max-width: 768px) {
+      .tecnologia {
+        flex-basis: calc(33.33% - 10px); /* Cambia a 33.33% en pantallas más pequeñas */
+    } 
+ }
