@@ -3,8 +3,8 @@ import './tecnologias.css'
 function tecnologias() {
   return (
     <div className="App">
-        <h1>Mis tecnologías</h1>
-        <div className="tecnologias">
+        <h1 className='h1'>Mis tecnologías</h1>
+        <div className="tecno">
           <div className="tecnologia">
             <img src="https://drive.google.com/uc?id=1J_hdn_P4y3ejNPANoIAFDT5Fp50RWAq0" alt="HTML5" />
             <h3>HTML5</h3>

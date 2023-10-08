@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Proyectos from './assets/component/Proyectos';
 import Tecnologias from './assets/component/tecnologias';
 import Footer from './assets/component/footer'
+import Estudios from './assets/component/estudios'
 import './App.css'
 function App() {
   useEffect(() => {
@@ -19,18 +20,31 @@ function App() {
       document.body.removeChild(script);
     };
   }, []);
+   // Función para manejar la descarga del archivo
+   const handleDownload = () => {
+    // Ruta al archivo que deseas descargar
+    const fileUrl = '/mi-cv.pdf';
+
+    // Crea un elemento <a> temporal para descargar el archivo
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = 'mi-cv.pdf';
+
+    // Simula un clic en el enlace para iniciar la descarga
+    link.click();
+  };
   return (
     <>
       <div>
  <header>
         <div className="logo">
-          <a href="#">Desarrollador FULL-STACK</a>
+          <a href="#">Developer FULL-STACK</a>
         </div>
         <input type="checkbox" id="click" />
         <label htmlFor="click" className="mainicon">
           <div className="menu">
             <i className="bi bi-list"></i>
-          </div>
+          </div> 
         </label>
         <nav>
     <a href="#" className="active"> Inicio</a>
@@ -60,7 +74,7 @@ function App() {
             creciendo como profesional en la industria de la programación.
             </p>
             <div className="button"> 
-            <button><ion-icon name="download-outline"></ion-icon> 
+            <button onClick={handleDownload}><ion-icon name="download-outline"></ion-icon> 
              Descargar CV </button> </div>
           </div>
           <div className="images">
@@ -70,6 +84,7 @@ function App() {
       </section>
     <Proyectos />
     <Tecnologias />
+    <Estudios />
     <Footer />
     </div>
     </>
