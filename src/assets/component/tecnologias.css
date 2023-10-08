@@ -43,7 +43,7 @@ background: rgb(250, 167, 229);
     .tecnologia {
         background-position: center;
         background-size: cover;
-        flex-basis: calc(60.33% - 10px);
+        flex-basis: calc(33.33% - 10px);
     }
   }
   
@@ -51,6 +51,6 @@ background: rgb(250, 167, 229);
     .tecnologia {
         background-position: center;
         background-size: cover;
-        flex-basis: calc(25.33% - 5px);
+        flex-basis: calc(33.33% - 5px);
     }
 }
