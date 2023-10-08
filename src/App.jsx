@@ -7,15 +7,11 @@ import Estudios from './assets/component/estudios'
 import './App.css'
 function App() {
   useEffect(() => {
-    // Crear un elemento <script> para cargar el script externo
+    // Se crea elemento script para cargar el script externo
     const script = document.createElement('script');
     script.src = 'https://unpkg.com/ionicons@latest/dist/ionicons.js';
     script.async = true;
-
-    // Agregar el script al final del <body>
     document.body.appendChild(script);
-
-    // Limpieza: eliminar el script cuando el componente se desmonte
     return () => {
       document.body.removeChild(script);
     };
@@ -23,12 +19,12 @@ function App() {
    // Función para manejar la descarga del archivo
    const handleDownload = () => {
     // Ruta al archivo que deseas descargar
-    const fileUrl = '/mi-cv.pdf';
+    const fileUrl = './src/ZUNILDA-ENCINA-ACUÑA.pdf';
 
     // Crea un elemento <a> temporal para descargar el archivo
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'mi-cv.pdf';
+    link.download = 'ZUNILDA-ENCINA-ACUÑA.pdf';
 
     // Simula un clic en el enlace para iniciar la descarga
     link.click();
@@ -78,7 +74,7 @@ function App() {
              Descargar CV </button> </div>
           </div>
           <div className="images">
-            <img src="https://task025.w3spaces.com/self3.png" alt="Foto de porfolio"  width="100%"  />
+            <img className='foto' src="https://drive.google.com/uc?id=1FcwtptB71jJp8IizEWrTH4_Dfzh29d-n" alt="Foto de porfolio"  width="100%"  />
           </div>
         </div>
       </section>

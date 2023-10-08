@@ -22,14 +22,15 @@ margin-bottom: 30px;
 text-align: center;
 font-style: oblique;
 font-family: 'Times New Roman', Times, serif;
-background-color: rgba(220, 20, 60, 0.11);
 flex-basis: calc(20% - 10px);
 padding: 10px;
 border-radius: .5em;
 border: 1px solid hsla(308, 82%, 57%, 0.514);
 box-shadow: 0 4px 6px rgba(61, 7, 43, 0.897);
-
+background: rgb(250, 167, 229);
+  background: linear-gradient(90deg, rgba(252,255,160,0.8281687675070029) 0%, rgba(0, 213, 255, 0.336) 100%);
 }
+
     /* Estilos para hacer que las cartas sean más pequeñas en pantallas más pequeñas */
 
  @media only screen and (max-width: 1024px) {

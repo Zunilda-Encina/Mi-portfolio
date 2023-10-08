@@ -10,7 +10,10 @@ body {
   background: rgb(250, 167, 229);
   background: linear-gradient(90deg, rgba(252,255,160,0.8281687675070029) 0%, rgba(255, 130, 230, 0.493) 50%, rgba(0, 213, 255, 0.336) 100%);
 }
-
+.foto{
+    width: 18rem;
+    margin-left: 20%;
+}
 /*nav */
 header {
   padding: 1.7rem 1rem;
@@ -29,12 +32,13 @@ header {
 }
 
 .logo a {
-  color: #113D6B;
+  color: #69015d;
+  text-shadow:2px 2px #f74fb177;
   text-decoration: none;
 }
 
 nav a {
-  color: #113D6B;
+  color: #3f023f;
   text-decoration: none;
   font-size: .97rem;
   font-weight: 600;
@@ -45,7 +49,7 @@ nav a {
 
 nav a.active,
 nav a:hover {
-  background-color: #113D6B;
+  background-color: #3f023f;
   color: #fff;
   border-radius: 1rem;
   transition: all.3s ease-in-out;
@@ -91,15 +95,14 @@ section {
   gap: 1.4rem;
   justify-content: center;
 }
-
 .social a {
-  color: #011b18;
+  color: #000000;
   font-size: 1rem;
-  border: 1.6px solid #8f0183;
-  box-shadow:1px 2px  #df3899;
+  border: 1.6px solid #000000;
   border-radius: 20%;
+  box-shadow:2px 2px  #fc0093ab;
   padding: .35rem;
-  text-align: center;
+  display: flex;
   width: 26px;
 }
 
@@ -114,15 +117,17 @@ section {
 }
 .button button {
   background-color: transparent;
-  border: 1px solid #113D6B;
+  border: 1px solid #000000;
+  box-shadow:1px 1px #df3899;
   border-radius: 0.4rem;
   margin-top: 2rem;
   cursor: pointer;
   padding: 0.8rem 1.2rem;
 }
 .button button:hover {
-  background-color: #113D6B;
-  color: #fff;
+  background: rgb(253, 154, 228);
+  background: linear-gradient(90deg, rgb(250, 133, 234) 0%, rgb(100, 222, 247) 100%);
+  color: #000000;
   transition: all .3s ease-in-out;
   transform: scale(.91);
 }
