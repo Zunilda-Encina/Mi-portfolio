@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import './footer.css'
+
 function iconos() {
     useEffect(() => {
         // Crear un elemento <script> para cargar el script externo
@@ -15,11 +17,12 @@ function iconos() {
         };
       }, []);
   return (
+    <div className="icon-container">
     <div className="social">
             <a href="#"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
-            <a href="#"> <ion-icon name="logo-github"></ion-icon> {/*correo */} </a>
-            <a href="#"> <ion-icon name="logo-github"></ion-icon> </a>
-            <a href="#"> <ion-icon name="logo-github"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
+            <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+  </div>
   </div>
   )
 }

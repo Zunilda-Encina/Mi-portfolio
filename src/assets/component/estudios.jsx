@@ -2,6 +2,9 @@ import React from 'react'
 import './estudios.css'
 function estudios() {
   return (
+    <div>
+      <h1 className='h1'>Formación y Capacitación</h1>
+        <p className='texto'>texto</p>
     <div className='caja'>
     <div className='galeria'>
    <img className='estudio'  src="https://drive.google.com/uc?id=1FZ6a0Vnw5j-eyTnztCg3DgVh4NErt6sW" alt="Impresion 3D" />
@@ -10,6 +13,7 @@ function estudios() {
    <img className='estudio' src="https://drive.google.com/uc?id=1Fb2XqitDvr_tIW5pXRfKsOXijjN1NqXp" alt="Frond-end 2" />
    <img className='estudio' src="https://drive.google.com/uc?id=1FbERWQzDM_ln0kP1hkMRIl4GYHN3zQuf" alt="Frond-end 1" />
    <img className='estudio' src="https://drive.google.com/uc?id=1EcoxZPa4le2H-06zPOppZ5pSZT3EyDpf" alt="Tech" />
+    </div>
     </div>
     </div>
   )

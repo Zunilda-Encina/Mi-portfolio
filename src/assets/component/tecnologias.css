@@ -8,9 +8,17 @@ padding-right: 15%;
 
 .h1{
     font-size: 2rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    text-decoration: underline;
-    color: cadetblue;
+    color: #69015d;
+    text-shadow:2px 2px #f74fb177;
+
+}
+.texto{
+    text-align: center;
+    font-size: 110%;
+    color: black;
 }
 img{
     width: 2rem;
@@ -43,7 +51,7 @@ background: rgb(250, 167, 229);
     .tecnologia {
         background-position: center;
         background-size: cover;
-        flex-basis: calc(33.33% - 10px);
+        flex-basis: calc(66.33% - 10px);
     }
   }
   
