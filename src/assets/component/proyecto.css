@@ -1,0 +1,57 @@
+.card-container{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-left: 15%;
+padding-right: 15%;
+}
+.proyect{
+    width: 18rem;
+}
+button{
+    margin-top: 10%;
+}
+.cartas{
+flex-basis: calc(20% - 10px); /* Ancho del 20% menos el espacio entre elementos */
+margin-bottom: 30px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+flex-basis: calc(20% - 10px);
+padding: 10px;
+border-radius: .5em;
+border: 1px solid hsla(308, 82%, 57%, 0.514);
+box-shadow: 0 4px 6px rgba(61, 7, 43, 0.897);
+background: rgb(250, 167, 229);
+background: linear-gradient(90deg, rgba(252,255,160,0.8281687675070029) 0%, rgba(0, 213, 255, 0.336) 100%);
+}
+
+.boton button {
+    background-color: transparent;
+    border: 1px solid #000000;
+    box-shadow:1px 1px #df3899;
+    border-radius: 1%;
+    margin-top: 5%;
+    cursor: pointer;
+    padding: 1% 1%;
+    margin-left: 30px;
+  }
+  .boton button:hover {
+    background: rgb(253, 154, 228);
+    background: linear-gradient(90deg, rgb(250, 133, 234) 0%, rgb(100, 222, 247) 100%);
+    color: #000000;
+    transition: all .3s ease-in-out;
+    transform: scale(.91);
+  }
+@media only screen and (max-width: 1024px) {
+    .card-container{
+        margin: 2rem 2.5rem;
+    }
+  }
+  
+  @media only screen and (max-width:480px) {
+    .cartas {
+        background-position: center;
+        background-size: cover;
+        flex-basis: calc(33.33% - 5px);
+    }
+}

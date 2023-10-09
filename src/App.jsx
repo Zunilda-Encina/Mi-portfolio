@@ -44,9 +44,9 @@ function App() {
         </label>
         <nav>
     <a href="#" className="active"> Inicio</a>
-          <a href="#">Projectos</a>
+          <a href="#">Proyectos</a>
           <a href="#">Tecnologias</a>
-          <a href="#">Estudios</a>
+          <a href="#">Formación</a>
           <a href="#">Contacto</a>
         </nav>
 </header>
