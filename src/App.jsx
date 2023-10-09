@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import Proyectos from './assets/component/Proyectos';
 import Tecnologias from './assets/component/tecnologias';
-import Footer from './assets/component/footer'
+import Contacto from './assets/component/contacto'
 import Estudios from './assets/component/estudios'
 
 
@@ -63,14 +63,18 @@ function App() {
      <div className="detail">
             <h1>
               <span>Hola,</span> <br /> me llamo{' '}
-              <span style={{ color: '#113D6B' }}>Zunilda</span>
+              <span style={{ color: '#3f023f' }}>Zunilda Encina</span>
             </h1>
             <p>  Soy programadora en busca de mi primer empleo. <br />
-            Estoy emocionada por la oportunidad 
-            de aplicar mis habilidades y conocimientos en el mundo laboral, 
+            Estoy emocionada por la oportunidad de aplicar mis habilidades y conocimientos en el mundo laboral, 
            contribuyendo de manera positiva a proyectos desafiantes y 
             creciendo como profesional en la industria de la programación.
             </p>
+            <p>Actualmente, estoy cursando la Diplomatura en Programación 
+              Web Full Stack en la UTN gracias a una beca otorgada por la 
+              Fundación Empujar. En la UTN, adquiero conocimientos relacionados 
+              con la programación y sus herramientas, mientras que la Fundación 
+              me brinda formación en habilidades blandas. </p>
             <div className="button"> 
             <button onClick={handleDownload}><ion-icon name="download-outline"></ion-icon> 
              Descargar CV </button> </div>
@@ -83,7 +87,7 @@ function App() {
     <Proyectos />
     <Tecnologias />
     <Estudios />
-    <Footer />
+    <Contacto />
     </div>
     </>
   )

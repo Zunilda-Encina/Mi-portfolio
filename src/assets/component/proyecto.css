@@ -56,10 +56,21 @@ background: linear-gradient(90deg, rgba(252,255,160,0.8281687675070029) 0%, rgba
     }
   }
   
+  @media only screen and (max-width:768px) {
+    .cartas {
+        background-position: center;
+        background-size: cover;
+        flex-basis: calc(66.66% - 5px);
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
   @media only screen and (max-width:480px) {
     .cartas {
         background-position: center;
         background-size: cover;
         flex-basis: calc(33.33% - 5px);
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
