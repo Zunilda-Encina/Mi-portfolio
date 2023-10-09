@@ -17,13 +17,20 @@ function iconos() {
         };
       }, []);
   return (
+    <>
+     <h1 className='h1'>Contacto</h1>
     <div className="icon-container">
+        <p className='texto'>Si estás en busca de un especialista en desarrollo front-end con conocimientos en back-end, 
+        te invito a contactarme a través de mis redes sociales o directamente a 
+        mi correo electrónico.</p>
     <div className="social">
-            <a href="#"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
-            <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
+            <a href="https://github.com/Zunilda-Encina"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
+            <a href="www.linkedin.com/in/zunilda-encina"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
             <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+            <a href=''><ion-icon name="mail-outline"></ion-icon></a>
   </div>
   </div>
+  </>
   )
 }
 

@@ -4,6 +4,8 @@ import Proyectos from './assets/component/Proyectos';
 import Tecnologias from './assets/component/tecnologias';
 import Footer from './assets/component/footer'
 import Estudios from './assets/component/estudios'
+
+
 import './App.css'
 function App() {
   useEffect(() => {
@@ -54,8 +56,8 @@ function App() {
   <section>
         <div className="main">
         <div className="social">
-            <a href="#"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
-            <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
+            <a href="https://github.com/Zunilda-Encina"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
+            <a href="www.linkedin.com/in/zunilda-encina"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
             <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
           </div>
      <div className="detail">

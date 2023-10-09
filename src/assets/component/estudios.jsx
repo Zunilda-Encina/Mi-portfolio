@@ -4,7 +4,8 @@ function estudios() {
   return (
     <div>
       <h1 className='h1'>Formación y Capacitación</h1>
-        <p className='texto'>texto</p>
+        <p className='texto'>En esta sección, podrás visualizar todos los 
+        diplomas, cursos y capacitaciones que haya completado.</p>
     <div className='caja'>
     <div className='galeria'>
    <img className='estudio'  src="https://drive.google.com/uc?id=1FZ6a0Vnw5j-eyTnztCg3DgVh4NErt6sW" alt="Impresion 3D" />

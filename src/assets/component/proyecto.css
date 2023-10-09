@@ -8,6 +8,13 @@ padding-right: 15%;
 .proyect{
     width: 18rem;
 }
+.parrafo{
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 8%;
+    font-style: normal;
+
+}
 button{
     margin-top: 10%;
 }
@@ -15,7 +22,6 @@ button{
 flex-basis: calc(20% - 10px); /* Ancho del 20% menos el espacio entre elementos */
 margin-bottom: 30px;
 text-align: center;
-font-family: 'Times New Roman', Times, serif;
 flex-basis: calc(20% - 10px);
 padding: 10px;
 border-radius: .5em;
@@ -26,11 +32,13 @@ background: linear-gradient(90deg, rgba(252,255,160,0.8281687675070029) 0%, rgba
 }
 
 .boton button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     background-color: transparent;
     border: 1px solid #000000;
     box-shadow:1px 1px #df3899;
     border-radius: 1%;
-    margin-top: 5%;
+    margin-top: 1%;
     cursor: pointer;
     padding: 1% 1%;
     margin-left: 30px;
