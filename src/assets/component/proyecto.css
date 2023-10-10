@@ -52,7 +52,7 @@ background: linear-gradient(90deg, rgba(252,255,160,0.8281687675070029) 0%, rgba
   }
 @media only screen and (max-width: 1024px) {
     .card-container{
-        margin: 2rem 2.5rem;
+        margin: 2.3rem 2.8rem;
     }
   }
   
@@ -60,7 +60,7 @@ background: linear-gradient(90deg, rgba(252,255,160,0.8281687675070029) 0%, rgba
     .cartas {
         background-position: center;
         background-size: cover;
-        flex-basis: calc(66.66% - 5px);
+        flex-basis: calc(33.33% - 5px);
         margin-left: 10%;
         margin-right: 10%;
     }
