@@ -20,10 +20,10 @@ function App() {
   }, []);
    // Función para manejar la descarga del archivo
    const handleDownload = () => {
-    // Ruta al archivo que deseas descargar
+    // Ruta al archivo a descargar
     const fileUrl = './src/ZUNILDA-ENCINA-ACUÑA.pdf';
 
-    // Crea un elemento <a> temporal para descargar el archivo
+    // Crea un elemento temporal para descargar el archivo
     const link = document.createElement('a');
     link.href = fileUrl;
     link.download = 'ZUNILDA-ENCINA-ACUÑA.pdf';
@@ -56,9 +56,9 @@ function App() {
   <section>
         <div className="main">
         <div className="social">
-            <a href="https://github.com/Zunilda-Encina"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
-            <a href="www.linkedin.com/in/zunilda-encina"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
-            <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+            <a href="https://github.com/Zunilda-Encina"> <ion-icon name="logo-github"></ion-icon> {/* github */} </a>
+            <a href="www.linkedin.com/in/zunilda-encina"> <ion-icon name="logo-linkedin"></ion-icon> {/* Linkedin */} </a>
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=new"> <ion-icon name="mail-outline"></ion-icon> {/*correo */}  </a>
           </div>
      <div className="detail">
             <h1>
