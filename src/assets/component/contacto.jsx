@@ -28,8 +28,9 @@ function iconos() {
         ¡Gracias por visitar mi portfolio!</p>
     <div className="social">
             <a href="https://github.com/Zunilda-Encina"> <ion-icon name="logo-github"></ion-icon> {/* Icono */} </a>
-            <a href="www.linkedin.com/in/zunilda-encina"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
-            <a href='https://mail.google.com/mail/u/1/#inbox?compose=new'><ion-icon name="mail-outline"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/zunilda-encina/"> <ion-icon name="logo-linkedin"></ion-icon> {/*correo */} </a>
+            <a href='https://mail.google.com/mail/u/1/#inbox?compose=DmwnWsCXBJwtmmmCxZHjjFJzSkXbcjXpqKWPMWLzbnpsfrJBbkRxsTSrvbzqZLfQnjxXlGhkKsTL'>
+            <ion-icon name="mail-outline"></ion-icon></a>
   </div>
   </div>
   </>

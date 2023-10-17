@@ -57,8 +57,9 @@ function App() {
         <div className="main">
         <div className="social">
             <a href="https://github.com/Zunilda-Encina"> <ion-icon name="logo-github"></ion-icon> {/* github */} </a>
-            <a href="www.linkedin.com/in/zunilda-encina"> <ion-icon name="logo-linkedin"></ion-icon> {/* Linkedin */} </a>
-            <a href="https://mail.google.com/mail/u/1/#inbox?compose=new"> <ion-icon name="mail-outline"></ion-icon> {/*correo */}  </a>
+            <a href="https://www.linkedin.com/in/zunilda-encina/"> <ion-icon name="logo-linkedin"></ion-icon> {/* Linkedin */} </a>
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=DmwnWsCXBJwtmmmCxZHjjFJzSkXbcjXpqKWPMWLzbnpsfrJBbkRxsTSrvbzqZLfQnjxXlGhkKsTL"> 
+            <ion-icon name="mail-outline"></ion-icon> {/*correo */}  </a>
           </div>
      <div className="detail">
             <h1>
